@@ -1,4 +1,4 @@
-# The directory Mix will write compiled artifacts to.
+ The directory Mix will write compiled artifacts to.
 /_build/
 
 # If you run "mix test --cover", coverage assets end up here.
@@ -25,3 +25,8 @@ erl_crash.dump
 # Ignore package tarball (built via "mix hex.build").
 pluggy-*.tar
 
+# Ignore this for obvious reasons
+me.ex
+
+# See above
+test.txt
